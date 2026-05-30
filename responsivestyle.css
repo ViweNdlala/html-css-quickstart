@@ -1,0 +1,93 @@
+body{
+    /* background-color: red; */
+    padding:0;
+    margin: 0;
+}
+
+header{
+    background-color: black;    /*while page still loading images*/
+    background-image: url("images/hero2.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+header nav{
+    /* background: green; */
+    margin:0;
+    padding:0;
+}
+
+header nav ul{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+    padding: 40px;
+    margin:0;
+    
+}
+
+header nav ul li{
+    /* background-color: yellow; */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header nav ul .logo a {
+    /* background-color: blue; */
+    background-image: url("images/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    width: 300px;
+    text-indent: -999999px;
+    position: relative;
+    top: -30px;
+
+}
+
+section{
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+}
+
+section figure{
+    color: gray;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    
+}
+
+section figure img{
+    background-color: black; /*while page still loading images*/
+    width: 200px;
+    height: 153px;
+    border-radius: 50%;
+    box-shadow:darkblue;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
